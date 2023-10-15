@@ -59,10 +59,10 @@ nav section:nth-child(2){
 } */
 
 .movie-search-area fieldset{
-    width: 1000px;
+    width: 900px;
     border: 2px solid black;
 
-    height: 45px;
+    height: 40px; /*원래 45px*/
     /*border-radius: 5px; */
     margin: 0;
     margin-bottom: 5px;
@@ -72,8 +72,9 @@ nav section:nth-child(2){
 
 #query{
     flex-basis: 92%;
-    padding: 5px;
-    font-size: 20px;
+    /* padding: 5px; */
+    padding: 7px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 5px 0px 0px 5px  ;
@@ -83,8 +84,9 @@ nav section:nth-child(2){
 
 #search-btn{
     flex-basis: 8%;
+    /* line-height: 30px; */
     line-height: 35px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     border-radius: 0px 5px 5px 0px   ;
     border: none;
     background-color: white; /* transparent : 투명 */
@@ -106,19 +108,28 @@ nav section:nth-child(2){
     justify-content: center;
 } */
 
-.user-login {
+.user-login,
+.user-logout {
     width: 170px;
     height: 55px;
     border-radius: 50px;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
+    align-items: center;
 
     background-color: white;
     color:black;
-    font-size: 30px;
+    font-size: 26px;
 }
+
+.user-login > span,
+.user-logout > span{
+    flex-basis: 60%;
+    padding-left: 10px;
+}
+
 
 .user-mypage{
     flex-basis: 50%;
