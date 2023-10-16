@@ -10,7 +10,7 @@
 
 a, button{
     cursor: pointer;
-    /* color : white; */
+    color : white;
 
 }
 
@@ -101,6 +101,31 @@ nav section:nth-child(2){
 
 .main-sort > a{
     margin : 0px 50px;
+
+    font-size: 12px;
+}
+
+.main-sort > a:nth-of-type(1):hover{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(253, 182, 206);
+    transition-duration : 0.3s;
+}
+
+
+.main-sort > a:nth-of-type(2):hover{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(160, 212, 80);
+    transition-duration : 0.3s;
+}
+
+
+.main-sort > a:nth-of-type(3):hover{
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(165, 230, 255);
+    transition-duration : 0.3s;
 }
 
 
