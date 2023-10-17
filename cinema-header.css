@@ -152,6 +152,15 @@ nav section:nth-child(2){
     font-size: 26px;
 }
 
+  .user-login:hover {
+    border: 4px solid transparent;
+    border-radius: 50px;
+    border-image: conic-gradient(#f06, #0cf, #f06);
+    border-image-slice: 1;
+    transition: border 0.2s ease;
+  } 
+
+
 .user-login > span,
 .user-logout > span{
     flex-basis: 60%;
