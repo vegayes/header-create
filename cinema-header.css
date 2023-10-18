@@ -1,3 +1,5 @@
+/*  이제 안씀.  movie-header를 header로 인식해서 사용 할 것 ( 공통 )  */
+
 *{
     box-sizing: border-box;
     list-style : none; /* 리스트 스타일 X */
@@ -101,7 +103,6 @@ nav section:nth-child(2){
 
 .main-sort > a{
     margin : 0px 50px;
-
     font-size: 12px;
 }
 
